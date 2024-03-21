@@ -1,6 +1,6 @@
 <h1> Seguimiento de Trayectorias - Manipulador Robotico - DRL </h1>
 
-![Zona de trabajo](https://github.com/RogerSgo/SeguimientoTrayectoria/blob/main/Screenshot%202024-03-21%20000255.png)
+![Zona de trabajo](https://github.com/RogerSgo/SeguimientoTrayectoria/blob/main/Screenshot%202024-03-21%20000700.png)
 <h2> Description </h2>
 
 - Seguimiento de Trayectorias usando un manipulador robotico (Franka Emika Panda - 7 DoF) con un sistema de control moderno basado en DRL en la plataforma de simulacion CoppeliaSim.
