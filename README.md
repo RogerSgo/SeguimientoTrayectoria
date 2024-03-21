@@ -4,7 +4,8 @@
 <h2> Description </h2>
 
 - Seguimiento de Trayectorias usando un manipulador robotico (Franka Emika Panda - 7 DoF) con un sistema de control moderno basado en DRL en la plataforma de simulacion CoppeliaSim.
-- La entrada al modelo de Red Neuronal Convolucional es un ROI de una imagen preprocesada y la salida es un vector con tres parametros de posicion (X, Y) y orientacion (Z) del efector final. el robot esta configurado en modo IK desde el simulador y solo se toma el control de movimeinto del efector final. Las trayectorias son generadas en la escena de simulacion. 
+- La entrada al modelo de Red Neuronal Convolucional es un ROI de una imagen preprocesada y la salida es un vector con tres parametros de posicion (X, Y) y orientacion (Z) del efector final. El robot esta configurado en modo IK desde el simulador y solo se toma el control de movimeinto del efector final. Las trayectorias son generadas en la escena de simulacion.
+- Ademas se realizo pruebas que demuestren el rendimiento del agente cuando se agrega movimientos vibratorios en los ejes de la trayectoria a seguir.
 <h2> Software: </h2>
 
 - CoppeliaSim 6.1
@@ -22,11 +23,8 @@
 - Modelo entrenado con 10k pasos de tiempo.
 <h2> Procedimiento </h2>
 
-- Entrenamiento: Abrir y ejecutar escena de Entrenamiento y archivo.ipynb de Entrenamiento
-- Evaluación: Abrir y ejecutar escena de Evaluación y archivo.ipynb de Evaluacion.
-<h2> Instalacion de Gymnasium </h2>
-
-![Zona de trabajo](https://github.com/Roger)
+- Entrenamiento: Abrir y ejecutar escena de Entrenamiento y archivo.ipynb.
+- Evaluación: Abrir y ejecutar escena de Inferencia y archivo.ipynb.
 <h2> Media </h2>
 
-Demo video: Robot training - https://youtu.be/4M1eHd9K1vw
+Demo video inferencia sencilla: https://www.youtube.com/watch?v=n-YulJUdDHg 
